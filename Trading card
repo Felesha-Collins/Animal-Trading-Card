@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<link href="styles.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="center borders">
+		<!-- your favorite animal's name goes here -->
+		<h3 class="title">Lioness</h3>
+		<!-- your favorite animal's image goes here -->
+		<img src="lioness2.jpeg" alt="Lioness">
+		<div class="borders">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class="if">Lionesses are the primary hunters of the pride. They are smaller and more agile than males and they use teamwork to bring an animal down.</p>
+			<ul>
+				<!-- your favorite animal's list items go here -->
+				<li><span class="lab">Scientific Name:</span> Panthera leo</li>
+				<li><span class="lab">Average Length:</span> 4.6- 5.7 feet</li>
+				<li><span class="lab">Average Lifespan:</span> 15-16 years</li>
+				<li><span class="lab">Habitat: </span> Brush, thick grasslands</li>
+			</ul>
+			<!-- your favorite animal's description goes here -->
+			<p>Known to give birth around the same time, female lions (lionesses) will take care of cubs until the age of two or three. Cubs are generally raised among multiple liters and get to be raised by multiple different moms. Shortly after raising her cubs until the age of 2 or 3, a mother lion will return the estrus cycle and is ready to give birth to another litter. With the coming of new cubs, the older male and female cubs are pushed out of the pack and forced to fend for themselves</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
+body{
+	font: gray;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+	margin: 0;
+	padding-right: 0;
+}
+
+img{
+	height:300px;
+	width:300px;
+}
+
+div{
+	padding: .4em;
+}
+.borders{
+	border: 1px solid grey;
+	box-shadow: 2px 5px #C0C0C0;
+}
+
+.center{
+	text-align: left;
+	width: 340px
+	
+}
+.content {
+    width: 340px;
+}
+
+.if{
+	font-style: italic;
+}
+
+.lab{
+	font-weight: bold;
+}
